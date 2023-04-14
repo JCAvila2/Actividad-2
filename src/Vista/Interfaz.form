@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane1" pref="940" max="32767" attributes="0"/>
+                  <Component id="LabelTitulo" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="LabelNombre" alignment="0" max="32767" attributes="0"/>
+                      <Component id="LabelApellido" alignment="0" max="32767" attributes="0"/>
+                      <Component id="LabelUsuario" alignment="0" max="32767" attributes="0"/>
+                      <Component id="LabelNumeroID" alignment="0" max="32767" attributes="0"/>
+                      <Component id="LabelTipoID" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="LabelContraseña" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelNumeroCelular" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelCorreoElectronico" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="InputApellido" pref="500" max="32767" attributes="0"/>
+                  <Component id="InputNombre" max="32767" attributes="0"/>
+                  <Component id="InputNumeroID" max="32767" attributes="0"/>
+                  <Component id="InputTipoID" max="32767" attributes="0"/>
+                  <Component id="InputUsuario" max="32767" attributes="0"/>
+                  <Component id="InputContraseña" max="32767" attributes="0"/>
+                  <Component id="InputNumeroCelular" max="32767" attributes="0"/>
+                  <Component id="InputCorreoElectronico" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btnActualizar" pref="100" max="32767" attributes="0"/>
+                  <Component id="btnAgregar" max="32767" attributes="0"/>
+                  <Component id="btnEliminar" max="32767" attributes="0"/>
+                  <Component id="btnLimpiar" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="LabelTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="InputTipoID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAgregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelTipoID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="InputNumeroID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnActualizar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelNumeroID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="InputNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="InputApellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLimpiar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelApellido" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="InputUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LabelContraseña" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="InputContraseña" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LabelNumeroCelular" min="-2" max="-2" attributes="0"/>
+                  <Component id="InputNumeroCelular" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LabelCorreoElectronico" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="InputCorreoElectronico" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="190" max="-2" attributes="0"/>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="InputApellido">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnActualizar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Actualizar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputNombre">
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputNumeroID">
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputTipoID">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAgregar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agregar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnEliminar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eliminar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimpiar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblTabla">
+          <Properties>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title value="Title 1"/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title value="Title 2"/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title value="Title 3"/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title value="Title 4"/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="LabelUsuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Usuario"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputUsuario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelApellido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelNumeroID">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Numero de ID *"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelTipoID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo de ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelTitulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Administrador de Clientes"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelContrase&#xf1;a">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contrase&#xf1;a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputContrase&#xf1;a">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelNumeroCelular">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Celular"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputNumeroCelular">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelCorreoElectronico">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Correo Electr&#xf3;nico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="InputCorreoElectronico">
+    </Component>
+  </SubComponents>
+</Form>
